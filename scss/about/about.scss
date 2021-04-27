@@ -1,0 +1,34 @@
+.about {
+    padding-top: 86px;
+    width: 979.5px;
+    margin: 0 auto;
+
+    .aboutImage {
+        width: 979.5px;
+        height: 378.75px;
+        background-image: linear-gradient(to right, $overlay-yellow, $overlay-yellow),  url(../images/about.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+
+        p {
+            font-size: 25px;
+            color: black;
+            font-family: GillSans;
+            border-bottom: 2px solid black;
+            display: inline-block;
+            padding-top: 355px;
+            padding-bottom: 10px;
+        }
+    }
+
+    .aboutText {
+        padding-top: 50px;
+        font-family: GillSans;
+        font-size: 16px;
+        font-style: italic;
+        font-weight: lighter;
+        padding-bottom: 115px;
+    }
+}

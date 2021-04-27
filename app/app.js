@@ -12,16 +12,18 @@ function init() {
        let btnID = this.id;
        let contentID = btnID + "Content";
     
-    //   if (btnID == "home") {
-    //     //   $("nav").removeClass("navabout").addClass(".homenav");
-    //         $("nav").css("position", "absolute");
-    //         $("nav").removeClass("navabout").removeClass("nav").addClass("homeNav")
+      if (btnID == "home") {
+        //   $("nav").removeClass("navabout").addClass(".homenav");
+            $("nav").css("position", "absolute");
+            $("nav").removeClass("otherNav").removeClass("nav").addClass("homeNav")
+            $("nav").addClass("whitelogo").removeClass("blacklogo");
 
+      } else {
+        $("nav").css("position", "relative");
+          $("nav").addClass("otherNav").removeClass("homeNav");
+          $("nav").addClass("blacklogo").removeClass("whitelogo");
 
-    //   } else {
-    //     $("nav").css("position", "relative");
-    //       $("nav").addClass("navabout").removeClass("homeNav")
-    //   }
+      }
 
       
 

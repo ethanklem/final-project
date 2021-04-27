@@ -1,0 +1,71 @@
+.galleryPics {
+
+    width: 980px;
+    margin: 0 auto;
+
+    h1 {
+        border-bottom: 2px solid black;
+        width: 229px;
+        font-family: GillSans;
+        padding-top: 65px;
+        margin-bottom: 30px;
+    }
+
+    .topPics {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 20px;
+        
+        .yellow {
+            width: 489px;
+            height: 187px;
+            background-image: linear-gradient(to right, $overlay-yellow, $overlay-yellow), url(../images/1.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .pink {
+            width: 187px;
+            height: 187px;
+            background-image: linear-gradient(to right, $overlay-pink, $overlay-pink), url(../images/2.jpeg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .green {
+            width: 265px;
+            height: 187px;
+            background-image: linear-gradient(to right, $overlay-green, $overlay-green), url(../images/3.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    }
+
+
+    .bottomPics {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 60px;
+
+        .purple {
+            width: 603px;
+            height: 306px;
+            background-image: linear-gradient(to right, $overlay-purple, $overlay-purple), url(../images/4.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .teal {
+            width: 355px;
+            height: 306px;
+            background-image: linear-gradient(to right, $overlay-teal, $overlay-teal), url(../images/5.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    }
+}
