@@ -1,0 +1,33 @@
+.quote {
+    width: 100%;
+    height: 300px;
+    background-color: white;
+
+
+    .homeQuote {
+        width: 789px;
+        margin: 0 auto;
+
+        .theQuote {
+            font-size: 15px;
+            color: $site-yellow;
+            font-family: GillSans;
+            font-style: italic;
+            padding-top: 80px;
+        }
+
+
+        .name {
+            font-size: 15px;
+            font-family: SerifRegular;
+            color: $site-pink;
+
+        }
+
+        .job {
+            font-size: 10px;
+            font-family: SerifRegular;
+            color: #A8A8A8;
+        }
+    }
+}

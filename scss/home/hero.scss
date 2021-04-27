@@ -1,0 +1,53 @@
+.hero {
+    max-width: 100%;
+    height: 500px;
+    margin: 0 auto;
+    background-image: linear-gradient(to right, $overlay-yellow, $overlay-yellow), url(../images/home-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+
+
+    .heroText {
+        text-align: center;
+        padding-top: 161px;
+        width: 714px;
+        margin: 0 auto;
+
+        .header {
+            font-size: 40px;
+            color: white;
+            font-family: SerifRegular;
+        }
+
+        .smallerText {
+            font-size: 20px;
+            color: $site-pink;
+            padding-bottom: 30px;
+            font-family: GillSans;
+            font-style: italic;
+        }
+
+        .loremHero {
+            font-size: 20px;
+            color: white;
+            padding-bottom: 50px;
+            font-family: GillSans;
+            font-style: italic;
+            width: 500px;
+            margin: 0 auto;
+        }
+
+        .heroBtn {
+            border: none;
+            width: 121.62px;
+            height: 40.04px;
+            background-color: $site-pink;
+            color: white;
+            font-family: GillSans;
+            font-size: 15px;
+            cursor: pointer;
+        }
+    }
+}

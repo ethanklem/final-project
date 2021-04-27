@@ -19,3 +19,28 @@ h6,
 p {
     margin-bottom: 16px;
 }
+
+@font-face {
+    font-family: GillSans;
+    src: url(fonts/GillSans.ttc);
+}
+
+@font-face {
+    font-family: SerifBold;
+    src: url(fonts/PTSerif-Bold.ttf);
+}
+
+@font-face {
+    font-family: SerifBoldItalic;
+    src: url(fonts/PTSerif-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: SerifItalic;
+    src: url(fonts/PTSerif-Italic.ttf);
+}
+
+@font-face {
+    font-family: SerifRegular;
+    src: url(fonts/PTSerif-Regular.ttf);
+}
