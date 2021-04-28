@@ -558,3 +558,171 @@ footer .socials .instagram {
   font-size: 15px;
   text-transform: uppercase;
 }
+
+.galleryInfo {
+  padding-top: 50px;
+  width: 980.5px;
+  margin: 0 auto;
+}
+.galleryInfo .galleryImage1 {
+  width: 980.5px;
+  height: 400.5px;
+  background-image: linear-gradient(to right, rgba(255, 209, 64, 0.7), rgba(255, 209, 64, 0.7)), url(../images/1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.galleryInfo .galleryImage1 .num {
+  font-size: 300px;
+}
+.galleryInfo .galleryImage1 p {
+  color: #FFD140;
+  font-size: 140px;
+  font-family: GillSans;
+  padding-top: 126px;
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+  margin-right: -10px;
+}
+.galleryInfo .galleryImage2 {
+  width: 980.5px;
+  height: 400.5px;
+  background-image: linear-gradient(to right, rgba(238, 67, 103, 0.7), rgba(238, 67, 103, 0.7)), url(../images/2.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.galleryInfo .galleryImage2 .num {
+  font-size: 300px;
+}
+.galleryInfo .galleryImage2 p {
+  color: #EE4367;
+  font-size: 140px;
+  font-family: GillSans;
+  padding-top: 126px;
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+  margin-right: -10px;
+}
+.galleryInfo .galleryImage3 {
+  width: 980.5px;
+  height: 400.5px;
+  background-image: linear-gradient(to right, rgba(8, 173, 105, 0.7), rgba(8, 173, 105, 0.7)), url(../images/3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.galleryInfo .galleryImage3 .num {
+  font-size: 300px;
+}
+.galleryInfo .galleryImage3 p {
+  color: #08AD69;
+  font-size: 140px;
+  font-family: GillSans;
+  padding-top: 126px;
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+  margin-right: -10px;
+}
+.galleryInfo .galleryImage4 {
+  width: 980.5px;
+  height: 400.5px;
+  background-image: linear-gradient(to right, rgba(84, 13, 110, 0.7), rgba(84, 13, 110, 0.7)), url(../images/4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.galleryInfo .galleryImage4 .num {
+  font-size: 300px;
+}
+.galleryInfo .galleryImage4 p {
+  color: #540D6E;
+  font-size: 140px;
+  font-family: GillSans;
+  padding-top: 126px;
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+  margin-right: -50px;
+}
+.galleryInfo .galleryImage5 {
+  width: 980.5px;
+  height: 400.5px;
+  background-image: linear-gradient(to right, rgba(59, 206, 171, 0.7), rgba(59, 206, 171, 0.7)), url(../images/5.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.galleryInfo .galleryImage5 .num {
+  font-size: 300px;
+}
+.galleryInfo .galleryImage5 p {
+  color: #3BCEAB;
+  font-size: 140px;
+  font-family: GillSans;
+  padding-top: 126px;
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+  margin-right: -10px;
+}
+.galleryInfo .galleryTexts {
+  display: flex;
+  font-family: SerifItalic;
+  font-weight: lighter;
+  font-size: 16px;
+  padding-top: 50px;
+  padding-bottom: 90px;
+  justify-content: space-between;
+}
+.galleryInfo .galleryTexts .leftText {
+  width: 490px;
+}
+.galleryInfo .galleryTexts .rightText {
+  width: 451px;
+}
+
+.bloginfo {
+  padding-top: 56px;
+  width: 981px;
+  margin: 0 auto;
+}
+.bloginfo .blogImage {
+  width: 981px;
+  height: 300px;
+  background-image: linear-gradient(to right, rgba(238, 67, 103, 0.7), rgba(238, 67, 103, 0.7)), url(../images/blog.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 75px;
+}
+.bloginfo .blogImage .date {
+  width: 155.25px;
+  height: 155.25px;
+  background-color: #EE4367;
+  margin: 0 auto;
+}
+.bloginfo .blogImage .date p {
+  color: white;
+  font-size: 55px;
+  font-family: SerifBold;
+  text-align: center;
+  padding-top: 15px;
+}
+.bloginfo .blogImage .date p .month {
+  font-size: 31px;
+  font-family: GillSans;
+  position: absolute;
+  margin-left: -31px;
+}
+.bloginfo .blogTextlarge .header {
+  color: #EE4367;
+  font-size: 20px;
+  font-family: GillSans;
+  padding-top: 55px;
+  padding-bottom: 10px;
+}
+.bloginfo .blogTextlarge .blogText {
+  color: black;
+  font-size: 20px;
+  font-family: GillSans;
+}
+.bloginfo .blogTextlarge .blogTextbottom {
+  color: black;
+  font-size: 20px;
+  font-family: GillSans;
+  padding-bottom: 160px;
+}

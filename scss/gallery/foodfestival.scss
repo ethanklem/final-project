@@ -1,0 +1,134 @@
+.galleryInfo {
+    padding-top: 50px;
+    width: 980.5px;
+    margin: 0 auto;
+    
+    .galleryImage1 {
+        width: 980.5px;
+        height: 400.5px;
+        background-image: linear-gradient(to right, $overlay-yellow2, $overlay-yellow2),  url(../images/1.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        .num {
+            font-size: 300px;
+        }
+
+        p {
+            color: $site-yellow;
+            font-size: 140px;
+            font-family: GillSans;
+            padding-top: 126px;
+            text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+            margin-right: -10px;
+        }
+    }
+
+    .galleryImage2 {
+        width: 980.5px;
+        height: 400.5px;
+        background-image: linear-gradient(to right, $overlay-pink2, $overlay-pink2),  url(../images/2.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        .num {
+            font-size: 300px;
+        }
+
+        p {
+            color: $site-pink;
+            font-size: 140px;
+            font-family: GillSans;
+            padding-top: 126px;
+            text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+            margin-right: -10px;
+        }
+    }
+
+    .galleryImage3 {
+        width: 980.5px;
+        height: 400.5px;
+        background-image: linear-gradient(to right, $overlay-green2, $overlay-green2),  url(../images/3.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        .num {
+            font-size: 300px;
+        }
+
+        p {
+            color: $site-green;
+            font-size: 140px;
+            font-family: GillSans;
+            padding-top: 126px;
+            text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+            margin-right: -10px;
+        }
+    }
+
+    .galleryImage4 {
+        width: 980.5px;
+        height: 400.5px;
+        background-image: linear-gradient(to right, $overlay-purple2, $overlay-purple2),  url(../images/4.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        .num {
+            font-size: 300px;
+        }
+
+        p {
+            color: $site-purple;
+            font-size: 140px;
+            font-family: GillSans;
+            padding-top: 126px;
+            text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+            margin-right: -50px;
+        }
+    }
+
+    .galleryImage5 {
+        width: 980.5px;
+        height: 400.5px;
+        background-image: linear-gradient(to right, $overlay-teal2, $overlay-teal2),  url(../images/5.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        .num {
+            font-size: 300px;
+        }
+
+        p {
+            color: $site-teal;
+            font-size: 140px;
+            font-family: GillSans;
+            padding-top: 126px;
+            text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+            margin-right: -10px;
+        }
+    }
+
+    .galleryTexts {
+        display: flex;
+        font-family: SerifItalic;
+        font-weight: lighter;
+        font-size: 16px;
+        padding-top: 50px;
+        padding-bottom: 90px;
+        justify-content: space-between;
+
+        .leftText {
+            width: 490px;
+        }
+
+        .rightText {
+            width: 451px;
+        }
+        
+    }
+}

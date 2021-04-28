@@ -30,7 +30,7 @@ function init() {
      
 
 
-       MODEL.getPageContent(contentID);
+       MODEL.getPageContent(contentID, addPromoListeners);
       console.log(btnID)
 
       
@@ -39,42 +39,42 @@ function init() {
    });
 }
 
-// function addPromoListeners() {
+function addPromoListeners() {
 
 
-// $(".promo-tours a").click(function(e) {
-//     let btnID = this.id;
-//     let contentID = btnID + "Content";
+$(".galleryPics a").click(function(e) {
+    let btnID = this.id;
+    let contentID = btnID + "Content";
 
-//     MODEL.getPageContent(contentID);
+    MODEL.getPageContent(contentID);
     
-//     console.log(btnID)
+    console.log(btnID)
 
-//     if (btnID == "israel", "usa", "australia") {
-//         $("nav").removeClass("homeNav").addClass("navabout")
-//       $("nav").css("position", "relative");
-//     }
-// });
+   
+});
 
-// $(".tour a").click(function(e) {
-//     let btnID = this.id;
-//     let contentID = btnID + "Content";
+$(".blog a").click(function(e) {
+    let btnID = this.id;
+    let contentID = btnID + "Content";
 
-//     MODEL.getPageContent(contentID);
+    MODEL.getPageContent(contentID);
     
-//     console.log(btnID)
-// });
+    console.log(btnID)
+});
 
 
 
-// }
+}
 
 
 
 
 $(document).ready(function() {
     init();
-    // MODEL.getPageContent("homeContent");
+    MODEL.getPageContent("homeContent");
+    $("nav").css("position", "absolute");
+    $("nav").removeClass("otherNav").removeClass("nav").addClass("homeNav")
+    $("nav").addClass("whitelogo").removeClass("blacklogo");
    
 })
 
