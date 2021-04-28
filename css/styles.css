@@ -52,10 +52,11 @@ p {
   margin-top: 30px;
 }
 .homeNav .links {
-  width: 542px;
+  width: 400px;
   height: 42px;
   align-self: center;
   display: flex;
+  margin-right: -15px;
 }
 .homeNav .links a {
   text-decoration: none;
@@ -65,7 +66,7 @@ p {
 }
 .homeNav .links .line {
   color: #EE4367;
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 .otherNav {
@@ -79,10 +80,11 @@ p {
   margin-top: 30px;
 }
 .otherNav .links {
-  width: 542px;
+  width: 400px;
   height: 42px;
   align-self: center;
   display: flex;
+  margin-right: -15px;
 }
 .otherNav .links a {
   text-decoration: none;
@@ -92,7 +94,7 @@ p {
 }
 .otherNav .links .line {
   color: #EE4367;
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 .whitelogo {
@@ -106,7 +108,7 @@ p {
 }
 
 footer {
-  max-width: 100%;
+  max-width: 1280px;
   height: 455px;
   margin: 0 auto;
   text-align: center;
@@ -171,10 +173,11 @@ footer .socials .instagram {
   margin-top: 30px;
 }
 .homeNav .links {
-  width: 542px;
+  width: 400px;
   height: 42px;
   align-self: center;
   display: flex;
+  margin-right: -15px;
 }
 .homeNav .links a {
   text-decoration: none;
@@ -184,7 +187,7 @@ footer .socials .instagram {
 }
 .homeNav .links .line {
   color: #EE4367;
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 .otherNav {
@@ -198,10 +201,11 @@ footer .socials .instagram {
   margin-top: 30px;
 }
 .otherNav .links {
-  width: 542px;
+  width: 400px;
   height: 42px;
   align-self: center;
   display: flex;
+  margin-right: -15px;
 }
 .otherNav .links a {
   text-decoration: none;
@@ -211,7 +215,7 @@ footer .socials .instagram {
 }
 .otherNav .links .line {
   color: #EE4367;
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 .whitelogo {
@@ -252,7 +256,7 @@ footer .socials .instagram {
 }
 
 .hero {
-  max-width: 100%;
+  max-width: 1280px;
   height: 500px;
   margin: 0 auto;
   background-image: linear-gradient(to right, rgba(255, 209, 64, 0.8), rgba(255, 209, 64, 0.8)), url(../images/home-hero.jpg);
@@ -299,9 +303,10 @@ footer .socials .instagram {
 }
 
 .upcoming {
-  width: 100%;
+  max-width: 1280px;
   height: 320px;
   background-color: #540D6E;
+  margin: 0 auto;
 }
 .upcoming h1 {
   font-family: GillSans;
@@ -310,7 +315,7 @@ footer .socials .instagram {
   border-bottom: 2px solid white;
   width: 300px;
   padding-top: 30px;
-  margin-left: 355px;
+  margin-left: 42px;
 }
 .upcoming .allEvents {
   display: flex;

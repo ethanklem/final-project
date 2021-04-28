@@ -1,7 +1,8 @@
 .upcoming {
-    width: 100%;
+    max-width: 1280px;
     height: 320px;
     background-color: $site-purple;
+    margin: 0 auto;
 
     h1 {
         font-family: GillSans;
@@ -10,7 +11,7 @@
         border-bottom: 2px solid white;
         width: 300px;
         padding-top: 30px;
-        margin-left: 355px;
+        margin-left: 42px;
        
     }
 

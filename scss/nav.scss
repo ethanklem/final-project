@@ -17,10 +17,11 @@
     
     
     .links {
-        width: 542px;
+        width: 400px;
         height: 42px;
         align-self: center;
         display: flex;
+        margin-right: -15px;
         
     a {
         text-decoration: none;
@@ -32,7 +33,9 @@
     
     .line {
         color: $site-pink;
-        margin-top: 15px;
+        margin-top: 10px;
+        
+        
         
     }
     
@@ -64,10 +67,12 @@
     
     
     .links {
-        width: 542px;
+        // width: 542px;
+        width: 400px;
         height: 42px;
         align-self: center;
         display: flex;
+        margin-right: -15px;
         
     a {
         text-decoration: none;
@@ -79,7 +84,7 @@
     
     .line {
         color: $site-pink;
-        margin-top: 15px;
+        margin-top: 10px;
         
     }
     
