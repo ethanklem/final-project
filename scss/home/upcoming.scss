@@ -12,6 +12,7 @@
         width: 300px;
         padding-top: 30px;
         margin-left: 42px;
+        letter-spacing: 4px;
        
     }
 
@@ -21,6 +22,7 @@
         width: 1280px;
         margin: 0 auto;
         padding-top: 20px;
+        padding-right: 30px;
 
         .event {
             display: flex;
@@ -57,12 +59,14 @@
                     font-size: 15px;
                     font-family: GillSans;
                     color: white;
+                    width: 150px;
                 }
     
                 .bottomText {
                     font-size: 13px;
                     font-family: GillSans;
                     color: $site-pink;
+                    width: 140px;
                 }
 
             }

@@ -29,7 +29,7 @@ var homeContent = ` <div class="hero">
     </div>
 
     <div class="event">
-        <div class="date"> <span class="day"> 06</span> <br> <span class="month">JUN</span> </div>
+        <div class="date"> <span class="day"> 30</span> <br> <span class="month">JUL</span> </div>
         <div class="bothText">
         <p class="topText">Sed et persipiatis unde omnis iste natus</p>
         <p class="bottomText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid temporibus quos aspernatur</p>
@@ -37,7 +37,7 @@ var homeContent = ` <div class="hero">
     </div>
 
     <div class="event">
-        <div class="date"> <span class="day"> 06</span> <br> <span class="month">JUN</span> </div>
+        <div class="date"> <span class="day"> 30</span> <br> <span class="month">AUG</span> </div>
         <div class="bothText">
         <p class="topText">Sed et persipiatis unde omnis iste natus</p>
         <p class="bottomText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid temporibus quos aspernatur</p>
@@ -45,7 +45,7 @@ var homeContent = ` <div class="hero">
     </div>
 
     <div class="event">
-        <div class="date"> <span class="day"> 06</span> <br> <span class="month">JUN</span> </div>
+        <div class="date"> <span class="day"> 23</span> <br> <span class="month">NOV</span> </div>
         <div class="bothText">
         <p class="topText">Sed et persipiatis unde omnis iste natus</p>
         <p class="bottomText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid temporibus quos aspernatur</p>
@@ -53,7 +53,7 @@ var homeContent = ` <div class="hero">
     </div>
 
     <div class="event">
-        <div class="date"> <span class="day"> 06</span> <br> <span class="month">JUN</span> </div>
+        <div class="date"> <span class="day"> 23</span> <br> <span class="month">DEC</span> </div>
         <div class="bothText">
         <p class="topText">Sed et persipiatis unde omnis iste natus</p>
         <p class="bottomText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid temporibus quos aspernatur</p>
@@ -164,7 +164,7 @@ var blogContent = ` <h1 class="blogh">Blogs:</h1>
  
 
 
-</div>`;
+</div><br><br><br><br><br>`;
 var contactContent = `<div class="contact">
 
 <h1>Contact Us:</h1>
