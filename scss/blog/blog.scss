@@ -1,16 +1,20 @@
 
+.allblogs {
+    margin: 0 auto;
+    width: 980px;
+
     .blogh {
         border-bottom: 2px solid black;
         width: 229px;
         padding-top: 65px;
-        margin-left: 461px;
         padding-bottom: 10px;
+        font-family: GillSans;
+        font-weight: lighter;
+        text-transform: uppercase;
     }
 
 .blogs {
     display: flex;
-    width: 980px;
-    margin: 0 auto;
     justify-content: space-between;
     
 
@@ -68,4 +72,6 @@
             }
         }
     }
+}
+
 }

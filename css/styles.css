@@ -42,14 +42,17 @@ p {
 .homeNav {
   width: 980px;
   height: 60px;
-  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   border-bottom: white solid 2px;
   font-family: GillSans;
   position: absolute;
-  margin-left: 465px;
   margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
 }
 .homeNav .links {
   width: 400px;
@@ -57,6 +60,7 @@ p {
   align-self: center;
   display: flex;
   margin-right: -15px;
+  margin-bottom: 10px;
 }
 .homeNav .links a {
   text-decoration: none;
@@ -85,6 +89,7 @@ p {
   align-self: center;
   display: flex;
   margin-right: -15px;
+  margin-bottom: 10px;
 }
 .otherNav .links a {
   text-decoration: none;
@@ -163,14 +168,17 @@ footer .socials .instagram {
 .homeNav {
   width: 980px;
   height: 60px;
-  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   border-bottom: white solid 2px;
   font-family: GillSans;
   position: absolute;
-  margin-left: 465px;
   margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
 }
 .homeNav .links {
   width: 400px;
@@ -178,6 +186,7 @@ footer .socials .instagram {
   align-self: center;
   display: flex;
   margin-right: -15px;
+  margin-bottom: 10px;
 }
 .homeNav .links a {
   text-decoration: none;
@@ -206,6 +215,7 @@ footer .socials .instagram {
   align-self: center;
   display: flex;
   margin-right: -15px;
+  margin-bottom: 10px;
 }
 .otherNav .links a {
   text-decoration: none;
@@ -243,6 +253,7 @@ footer .socials .instagram {
   font-family: GillSans;
   font-style: italic;
   padding-top: 80px;
+  word-spacing: 4px;
 }
 .quote .homeQuote .name {
   font-size: 15px;
@@ -313,10 +324,13 @@ footer .socials .instagram {
   font-size: 25px;
   color: white;
   border-bottom: 2px solid white;
-  width: 300px;
+  padding-bottom: 10px;
+  width: 400px;
   padding-top: 30px;
   margin-left: 42px;
   letter-spacing: 4px;
+  font-weight: lighter;
+  text-transform: uppercase;
 }
 .upcoming .allEvents {
   display: flex;
@@ -388,9 +402,8 @@ footer .socials .instagram {
 }
 .about .aboutText {
   padding-top: 50px;
-  font-family: GillSans;
+  font-family: SerifItalic;
   font-size: 16px;
-  font-style: italic;
   padding-bottom: 115px;
 }
 
@@ -402,10 +415,12 @@ footer .socials .instagram {
   border-bottom: 2px solid black;
   width: 229px;
   font-family: GillSans;
+  font-weight: lighter;
   padding-top: 65px;
   margin-bottom: 30px;
   padding-bottom: 10px;
-  letter-spacing: 4px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 .galleryPics .topPics {
   display: flex;
@@ -458,25 +473,28 @@ footer .socials .instagram {
   background-size: cover;
 }
 
-.blogh {
+.allblogs {
+  margin: 0 auto;
+  width: 980px;
+}
+.allblogs .blogh {
   border-bottom: 2px solid black;
   width: 229px;
   padding-top: 65px;
-  margin-left: 461px;
   padding-bottom: 10px;
+  font-family: GillSans;
+  font-weight: lighter;
+  text-transform: uppercase;
 }
-
-.blogs {
+.allblogs .blogs {
   display: flex;
-  width: 980px;
-  margin: 0 auto;
   justify-content: space-between;
 }
-.blogs .blog {
+.allblogs .blogs .blog {
   display: flex;
   padding-top: 20px;
 }
-.blogs .blog .date {
+.allblogs .blogs .blog .date {
   width: 60px;
   height: 60px;
   background-color: #EE4367;
@@ -488,7 +506,7 @@ footer .socials .instagram {
   padding-right: 20px;
   padding-left: 20px;
 }
-.blogs .blog .blogRight .blogPic {
+.allblogs .blogs .blog .blogRight .blogPic {
   background-image: url(../images/blogpic.jpg);
   width: 380px;
   height: 140px;
@@ -496,16 +514,16 @@ footer .socials .instagram {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.blogs .blog .blogRight .blogText {
+.allblogs .blogs .blog .blogRight .blogText {
   width: 380px;
 }
-.blogs .blog .blogRight .blogText .topText {
+.allblogs .blogs .blog .blogRight .blogText .topText {
   color: black;
   font-size: 15px;
   font-family: GillSans;
   padding-top: 20px;
 }
-.blogs .blog .blogRight .blogText .bottomText {
+.allblogs .blogs .blog .blogRight .blogText .bottomText {
   color: #EE4367;
   font-size: 13px;
   font-family: GillSans;
@@ -522,11 +540,14 @@ footer .socials .instagram {
   display: inline-block;
   padding-right: 30px;
   font-size: 30px;
-  font-weight: 200;
+  font-family: GillSans;
+  font-weight: lighter;
+  width: 250px;
+  padding-bottom: 10px;
 }
 .contact .fullSide {
   display: flex;
-  padding-top: 30px;
+  padding-top: 40px;
   padding-bottom: 100px;
   justify-content: space-between;
 }
@@ -567,8 +588,10 @@ footer .socials .instagram {
   cursor: pointer;
   border: none;
   font-family: GillSans;
-  font-size: 15px;
+  font-size: 16px;
+  font-weight: lighter;
   text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 .galleryInfo {
@@ -646,7 +669,7 @@ footer .socials .instagram {
 }
 .galleryInfo .galleryImage4 p {
   color: #540D6E;
-  font-size: 140px;
+  font-size: 115px;
   font-family: GillSans;
   padding-top: 126px;
   text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
@@ -665,7 +688,7 @@ footer .socials .instagram {
 }
 .galleryInfo .galleryImage5 p {
   color: #3BCEAB;
-  font-size: 140px;
+  font-size: 115px;
   font-family: GillSans;
   padding-top: 126px;
   text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
@@ -718,7 +741,7 @@ footer .socials .instagram {
   font-size: 31px;
   font-family: GillSans;
   position: absolute;
-  margin-left: -31px;
+  margin-left: -25px;
 }
 .bloginfo .blogTextlarge .header {
   color: #EE4367;

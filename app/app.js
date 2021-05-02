@@ -29,8 +29,8 @@ function init() {
 
      
 
-
-       MODEL.getPageContent(contentID, addPromoListeners);
+    
+        MODEL.getPageContent(contentID, addPromoListeners);
       console.log(btnID)
 
       
@@ -50,7 +50,7 @@ $(".galleryPics a").click(function(e) {
     
     console.log(btnID)
 
-   
+    
 });
 
 $(".blog a").click(function(e) {

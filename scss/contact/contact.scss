@@ -4,22 +4,23 @@
     padding-top: 98px;
 
     h1 {
-        //font-family: ExtraCondense;
         text-transform: uppercase;
         border-bottom: 2px solid black;
         display: inline-block;
         padding-right: 30px;
         font-size: 30px;
-        //font-family: proxima-nova-condensed, sans-serif;
-        font-weight: 200;
-       
+        font-family: GillSans;
+        font-weight: lighter;
+        width: 250px;
+        padding-bottom: 10px;
         
 }
     .fullSide {
         display: flex;
-        padding-top: 30px;
+        padding-top: 40px;
         padding-bottom: 100px;
         justify-content: space-between;
+       
         
         .rightSide {
 
@@ -74,8 +75,10 @@
                 cursor: pointer;
                 border: none;
                 font-family: GillSans;
-                font-size: 15px;
+                font-size: 16px;
+                font-weight: lighter;
                 text-transform: uppercase;
+                letter-spacing: 2px;
                 
             }
         }
