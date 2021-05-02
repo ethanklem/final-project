@@ -1,11 +1,11 @@
 .quote {
-    width: 100%;
+    max-width: 1280px;
     height: 300px;
     background-color: white;
-
+    margin: 0 auto;
 
     .homeQuote {
-        width: 789px;
+        max-width: 789px;
         margin: 0 auto;
 
         .theQuote {

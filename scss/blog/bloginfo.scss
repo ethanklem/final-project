@@ -1,10 +1,10 @@
 .bloginfo {
     padding-top: 56px;
-    width: 981px;
+    max-width: 981px;
     margin: 0 auto;
 
     .blogImage {
-        width: 981px;
+        max-width: 981px;
         height: 300px;
         background-image: linear-gradient(to right, $overlay-pink2, $overlay-pink2),  url(../images/blog.jpg);
         background-position: center;

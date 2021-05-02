@@ -40,7 +40,7 @@ p {
   src: url(fonts/PTSerif-Regular.ttf);
 }
 .homeNav {
-  width: 980px;
+  max-width: 980px;
   height: 60px;
   display: flex;
   justify-content: space-between;
@@ -74,7 +74,7 @@ p {
 }
 
 .otherNav {
-  width: 980px;
+  max-width: 980px;
   height: 60px;
   margin: 0 auto;
   display: flex;
@@ -166,7 +166,7 @@ footer .socials .instagram {
 }
 
 .homeNav {
-  width: 980px;
+  max-width: 980px;
   height: 60px;
   display: flex;
   justify-content: space-between;
@@ -200,7 +200,7 @@ footer .socials .instagram {
 }
 
 .otherNav {
-  width: 980px;
+  max-width: 980px;
   height: 60px;
   margin: 0 auto;
   display: flex;
@@ -239,12 +239,13 @@ footer .socials .instagram {
 }
 
 .quote {
-  width: 100%;
+  max-width: 1280px;
   height: 300px;
   background-color: white;
+  margin: 0 auto;
 }
 .quote .homeQuote {
-  width: 789px;
+  max-width: 789px;
   margin: 0 auto;
 }
 .quote .homeQuote .theQuote {
@@ -278,7 +279,7 @@ footer .socials .instagram {
 .hero .heroText {
   text-align: center;
   padding-top: 161px;
-  width: 714px;
+  max-width: 714px;
   margin: 0 auto;
 }
 .hero .heroText .header {
@@ -335,7 +336,7 @@ footer .socials .instagram {
 .upcoming .allEvents {
   display: flex;
   justify-content: space-around;
-  width: 1280px;
+  max-width: 1280px;
   margin: 0 auto;
   padding-top: 20px;
   padding-right: 30px;
@@ -379,11 +380,11 @@ footer .socials .instagram {
 
 .about {
   padding-top: 86px;
-  width: 979.5px;
+  max-width: 979.5px;
   margin: 0 auto;
 }
 .about .aboutImage {
-  width: 979.5px;
+  max-width: 979.5px;
   height: 378.75px;
   background-image: linear-gradient(to right, rgba(255, 209, 64, 0.8), rgba(255, 209, 64, 0.8)), url(../images/about.jpg);
   background-position: center;
@@ -475,7 +476,7 @@ footer .socials .instagram {
 
 .allblogs {
   margin: 0 auto;
-  width: 980px;
+  max-width: 980px;
 }
 .allblogs .blogh {
   border-bottom: 2px solid black;
@@ -596,11 +597,11 @@ footer .socials .instagram {
 
 .galleryInfo {
   padding-top: 50px;
-  width: 980.5px;
+  max-width: 980.5px;
   margin: 0 auto;
 }
 .galleryInfo .galleryImage1 {
-  width: 980.5px;
+  max-width: 980.5px;
   height: 400.5px;
   background-image: linear-gradient(to right, rgba(255, 209, 64, 0.7), rgba(255, 209, 64, 0.7)), url(../images/1.png);
   background-position: center;
@@ -619,7 +620,7 @@ footer .socials .instagram {
   margin-right: -10px;
 }
 .galleryInfo .galleryImage2 {
-  width: 980.5px;
+  max-width: 980.5px;
   height: 400.5px;
   background-image: linear-gradient(to right, rgba(238, 67, 103, 0.7), rgba(238, 67, 103, 0.7)), url(../images/2.jpeg);
   background-position: center;
@@ -638,7 +639,7 @@ footer .socials .instagram {
   margin-right: -10px;
 }
 .galleryInfo .galleryImage3 {
-  width: 980.5px;
+  max-width: 980.5px;
   height: 400.5px;
   background-image: linear-gradient(to right, rgba(8, 173, 105, 0.7), rgba(8, 173, 105, 0.7)), url(../images/3.jpg);
   background-position: center;
@@ -657,7 +658,7 @@ footer .socials .instagram {
   margin-right: -10px;
 }
 .galleryInfo .galleryImage4 {
-  width: 980.5px;
+  max-width: 980.5px;
   height: 400.5px;
   background-image: linear-gradient(to right, rgba(84, 13, 110, 0.7), rgba(84, 13, 110, 0.7)), url(../images/4.jpg);
   background-position: center;
@@ -676,7 +677,7 @@ footer .socials .instagram {
   margin-right: -50px;
 }
 .galleryInfo .galleryImage5 {
-  width: 980.5px;
+  max-width: 980.5px;
   height: 400.5px;
   background-image: linear-gradient(to right, rgba(59, 206, 171, 0.7), rgba(59, 206, 171, 0.7)), url(../images/5.png);
   background-position: center;
@@ -712,11 +713,11 @@ footer .socials .instagram {
 
 .bloginfo {
   padding-top: 56px;
-  width: 981px;
+  max-width: 981px;
   margin: 0 auto;
 }
 .bloginfo .blogImage {
-  width: 981px;
+  max-width: 981px;
   height: 300px;
   background-image: linear-gradient(to right, rgba(238, 67, 103, 0.7), rgba(238, 67, 103, 0.7)), url(../images/blog.jpg);
   background-position: center;

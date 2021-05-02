@@ -1,10 +1,10 @@
 .galleryInfo {
     padding-top: 50px;
-    width: 980.5px;
+    max-width: 980.5px;
     margin: 0 auto;
     
     .galleryImage1 {
-        width: 980.5px;
+        max-width: 980.5px;
         height: 400.5px;
         background-image: linear-gradient(to right, $overlay-yellow2, $overlay-yellow2),  url(../images/1.png);
         background-position: center;
@@ -26,7 +26,7 @@
     }
 
     .galleryImage2 {
-        width: 980.5px;
+        max-width: 980.5px;
         height: 400.5px;
         background-image: linear-gradient(to right, $overlay-pink2, $overlay-pink2),  url(../images/2.jpeg);
         background-position: center;
@@ -48,7 +48,7 @@
     }
 
     .galleryImage3 {
-        width: 980.5px;
+        max-width: 980.5px;
         height: 400.5px;
         background-image: linear-gradient(to right, $overlay-green2, $overlay-green2),  url(../images/3.jpg);
         background-position: center;
@@ -70,7 +70,7 @@
     }
 
     .galleryImage4 {
-        width: 980.5px;
+        max-width: 980.5px;
         height: 400.5px;
         background-image: linear-gradient(to right, $overlay-purple2, $overlay-purple2),  url(../images/4.jpg);
         background-position: center;
@@ -92,7 +92,7 @@
     }
 
     .galleryImage5 {
-        width: 980.5px;
+        max-width: 980.5px;
         height: 400.5px;
         background-image: linear-gradient(to right, $overlay-teal2, $overlay-teal2),  url(../images/5.png);
         background-position: center;

@@ -1,10 +1,10 @@
 .about {
     padding-top: 86px;
-    width: 979.5px;
+    max-width: 979.5px;
     margin: 0 auto;
 
     .aboutImage {
-        width: 979.5px;
+        max-width: 979.5px;
         height: 378.75px;
         background-image: linear-gradient(to right, $overlay-yellow, $overlay-yellow),  url(../images/about.jpg);
         background-position: center;
