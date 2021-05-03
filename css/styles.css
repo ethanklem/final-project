@@ -547,9 +547,33 @@ footer .socials .instagram {
   color: white;
   font-family: GillSans;
   text-align: center;
-  padding-top: 5px;
-  margin-right: 20px;
+  padding-top: 10px;
   padding-right: 20px;
+  padding-left: 20px;
+  font-size: 22px;
+  font-weight: bold;
+}
+.allblogs .blogs .blog .date .month {
+  font-size: 12px;
+  font-weight: lighter;
+  position: absolute;
+}
+.allblogs .blogs .blog .date #july {
+  margin-left: -6px;
+}
+.allblogs .blogs .blog .date #june {
+  margin-left: -9px;
+}
+.allblogs .blogs .blog .date #august {
+  margin-left: -11px;
+}
+.allblogs .blogs .blog .date #november {
+  margin-left: -12px;
+}
+.allblogs .blogs .blog .date #december {
+  margin-left: -11px;
+}
+.allblogs .blogs .blog .blogRight {
   padding-left: 20px;
 }
 .allblogs .blogs .blog .blogRight .blogPic {
@@ -858,6 +882,18 @@ footer .socials .instagram {
   position: absolute;
   margin-left: -25px;
 }
+.bloginfo .blogImage .date #july {
+  margin-left: -20px;
+}
+.bloginfo .blogImage .date #august {
+  margin-left: -30px;
+}
+.bloginfo .blogImage .date #november {
+  margin-left: -33px;
+}
+.bloginfo .blogImage .date #december {
+  margin-left: -30px;
+}
 .bloginfo .blogTextlarge .header {
   color: #EE4367;
   font-size: 20px;
@@ -869,12 +905,14 @@ footer .socials .instagram {
   color: black;
   font-size: 20px;
   font-family: GillSans;
+  font-weight: lighter;
 }
 .bloginfo .blogTextlarge .blogTextbottom {
   color: black;
   font-size: 20px;
   font-family: GillSans;
   padding-bottom: 160px;
+  font-weight: lighter;
 }
 
 @media only screen and (max-width: 980px) {

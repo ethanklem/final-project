@@ -31,8 +31,26 @@
                     font-family: GillSans;
                     position: absolute;
                     margin-left: -25px;
+
+                 
                     
                 }
+            }
+            #july {
+                margin-left: -20px;
+              
+            }
+
+            #august {
+                margin-left: -30px;
+            }
+
+            #november {
+                margin-left: -33px;
+            }
+
+            #december {
+                margin-left: -30px;
             }
         }
     
@@ -53,7 +71,7 @@
             color: black;
             font-size: 20px;
             font-family: GillSans;
-            
+            font-weight: lighter;
           
         }
 
@@ -63,6 +81,7 @@
             font-size: 20px;
             font-family: GillSans;
             padding-bottom: 160px;
+            font-weight: lighter;
           
         }
     }

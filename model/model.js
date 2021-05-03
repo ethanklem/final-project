@@ -90,7 +90,7 @@ var blogContent = `
     
     <div class="blog">
         <a id="blogone" href="#" style="text-decoration: none;">
-        <div class="date">06 JUN</div>
+        <div class="date">06 <span class="month" id="june">JUN</span></div>
         <div class="blogRight">
           <div class="blogPic"></div>
           <div class="blogText">
@@ -103,7 +103,7 @@ var blogContent = `
     </div>
 
     <div class="blog">
-      <a id="blogtwo" href="#" style="text-decoration: none;"><div class="date">30 JUL</div></a>
+      <a id="blogtwo" href="#" style="text-decoration: none;"><div class="date">30 <span class="month" id="july">JUL</span></div></a>
       <a id="blogtwo" href="#" style="text-decoration: none;"><div class="blogRight">
         <div class="blogPic"></div>
         <div class="blogText">
@@ -122,7 +122,7 @@ var blogContent = `
 <div class="blogs">
     
     <div class="blog">
-        <a id="blogthree" href="#" style="text-decoration: none;"><div class="date">30 AUG</div></a>
+        <a id="blogthree" href="#" style="text-decoration: none;"><div class="date">30 <span class="month" id="august">AUG</span></div></a>
         <a id="blogthree" href="#" style="text-decoration: none;"><div class="blogRight">
           <div class="blogPic"></div>
           <div class="blogText">
@@ -134,7 +134,7 @@ var blogContent = `
         
     </div>
     <div class="blog">
-        <a id="blogfour" href="#" style="text-decoration: none;"><div class="date">23 NOV</div></a>
+        <a id="blogfour" href="#" style="text-decoration: none;"><div class="date">23 <span class="month" id="november">NOV</span></div></a>
         <a id="blogfour" href="#" style="text-decoration: none;"><div class="blogRight">
           <div class="blogPic"></div>
           <div class="blogText">
@@ -152,7 +152,7 @@ var blogContent = `
 <div class="blogs">
     
     <div class="blog">
-        <a id="blogfive" href="#" style="text-decoration: none;"><div class="date">23 DEC</div></a>
+        <a id="blogfive" href="#" style="text-decoration: none;"><div class="date">23 <span class="month" id="december">DEC</span></div></a>
         <a id="blogfive" href="#" style="text-decoration: none;"><div class="blogRight">
           <div class="blogPic"></div>
           <div class="blogText">
@@ -262,7 +262,7 @@ var internationalContent = `     <section class="galleryInfo">
 var blogoneContent = `  <section class="bloginfo">
 <div class="blogImage">
     <div class="date">
-        <p>06 <br> <span class="month">JUN</span></p>
+        <p>06 <br> <span class="month" id="june">JUN</span></p>
     </div>
 </div>
 <div class="blogTextlarge">
@@ -278,7 +278,7 @@ var blogoneContent = `  <section class="bloginfo">
 var blogtwoContent = `  <section class="bloginfo">
 <div class="blogImage">
     <div class="date">
-        <p>30 <br> <span class="month">JUL</span></p>
+        <p>30 <br> <span class="month" id="july">JUL</span></p>
     </div>
 </div>
 <div class="blogTextlarge">
@@ -294,7 +294,7 @@ var blogtwoContent = `  <section class="bloginfo">
 var blogthreeContent = ` <section class="bloginfo">
 <div class="blogImage">
     <div class="date">
-        <p>30 <br> <span class="month">AUG</span></p>
+        <p>30 <br> <span class="month" id="august">AUG</span></p>
     </div>
 </div>
 <div class="blogTextlarge">
@@ -310,7 +310,7 @@ var blogthreeContent = ` <section class="bloginfo">
 var blogfourContent = `  <section class="bloginfo">
 <div class="blogImage">
     <div class="date">
-        <p>23 <br> <span class="month">NOV</span></p>
+        <p>23 <br> <span class="month" id="november">NOV</span></p>
     </div>
 </div>
 <div class="blogTextlarge">
@@ -326,7 +326,7 @@ var blogfourContent = `  <section class="bloginfo">
 var blogfiveContent = `  <section class="bloginfo">
 <div class="blogImage">
     <div class="date">
-        <p>23 <br> <span class="month">DEC</span></p>
+        <p>23 <br> <span class="month" id="december">DEC</span></p>
     </div>
 </div>
 <div class="blogTextlarge">
