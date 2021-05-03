@@ -73,3 +73,23 @@
         }
     }
 }
+
+
+@media only screen and (max-width: 980px) {
+    .galleryPics {
+        
+        padding: 10px;
+        
+
+        .topPics {
+            flex-direction: column;
+            
+        }
+
+        .bottomPics {
+            flex-direction: column;
+            
+        }
+
+    }
+}

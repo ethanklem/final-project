@@ -75,3 +75,15 @@
 }
 
 }
+
+@media only screen and (max-width: 980px) {
+    .allblogs {
+
+        padding: 10px;
+        
+
+        .blogs {
+            flex-direction: column;
+        }
+    }
+}

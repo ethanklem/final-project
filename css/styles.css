@@ -112,6 +112,11 @@ p {
   background-repeat: no-repeat;
 }
 
+@media only screen and (max-width: 980px) {
+  .homeNav {
+    padding: 10px;
+  }
+}
 footer {
   max-width: 100%;
   height: 455px;
@@ -165,6 +170,11 @@ footer .socials .instagram {
   padding-right: 30px;
 }
 
+@media only screen and (max-width: 980px) {
+  footer {
+    padding: 10px;
+  }
+}
 .homeNav {
   max-width: 980px;
   height: 60px;
@@ -238,6 +248,11 @@ footer .socials .instagram {
   background-repeat: no-repeat;
 }
 
+@media only screen and (max-width: 980px) {
+  .homeNav {
+    padding: 10px;
+  }
+}
 .quote {
   max-width: 1280px;
   height: 300px;
@@ -267,6 +282,11 @@ footer .socials .instagram {
   color: #A8A8A8;
 }
 
+@media only screen and (max-width: 980px) {
+  .quote {
+    padding: 10px;
+  }
+}
 .hero {
   max-width: 100%;
   height: 500px;
@@ -378,6 +398,15 @@ footer .socials .instagram {
   width: 140px;
 }
 
+@media only screen and (max-width: 1200px) {
+  .upcoming {
+    height: 820px;
+  }
+  .upcoming .allEvents {
+    flex-direction: column;
+    padding-left: 12px;
+  }
+}
 .about {
   padding-top: 86px;
   max-width: 979.5px;
@@ -408,6 +437,11 @@ footer .socials .instagram {
   padding-bottom: 115px;
 }
 
+@media only screen and (max-width: 980px) {
+  .about {
+    padding: 10px;
+  }
+}
 .galleryPics {
   width: 980px;
   margin: 0 auto;
@@ -474,6 +508,17 @@ footer .socials .instagram {
   background-size: cover;
 }
 
+@media only screen and (max-width: 980px) {
+  .galleryPics {
+    padding: 10px;
+  }
+  .galleryPics .topPics {
+    flex-direction: column;
+  }
+  .galleryPics .bottomPics {
+    flex-direction: column;
+  }
+}
 .allblogs {
   margin: 0 auto;
   max-width: 980px;
@@ -530,6 +575,14 @@ footer .socials .instagram {
   font-family: GillSans;
 }
 
+@media only screen and (max-width: 980px) {
+  .allblogs {
+    padding: 10px;
+  }
+  .allblogs .blogs {
+    flex-direction: column;
+  }
+}
 .contact {
   max-width: 980px;
   margin: 0 auto;
@@ -595,6 +648,12 @@ footer .socials .instagram {
   letter-spacing: 2px;
 }
 
+@media only screen and (max-width: 980px) {
+  .contact {
+    padding: 10px;
+    margin-top: 50px;
+  }
+}
 .galleryInfo {
   padding-top: 50px;
   max-width: 980.5px;
@@ -711,6 +770,61 @@ footer .socials .instagram {
   width: 451px;
 }
 
+@media only screen and (max-width: 980px) {
+  .galleryInfo {
+    padding: 10px;
+  }
+  .galleryInfo .galleryImage1 .num {
+    font-size: 200px;
+  }
+  .galleryInfo .galleryImage1 p {
+    font-size: 80px;
+    padding-top: 100px;
+  }
+  .galleryInfo .galleryImage2 .num {
+    font-size: 200px;
+  }
+  .galleryInfo .galleryImage2 p {
+    font-size: 100px;
+    padding-top: 220px;
+  }
+  .galleryInfo .galleryImage3 .num {
+    font-size: 200px;
+  }
+  .galleryInfo .galleryImage3 p {
+    font-size: 100px;
+    padding-top: 220px;
+  }
+  .galleryInfo .galleryImage4 .num {
+    font-size: 200px;
+  }
+  .galleryInfo .galleryImage4 p {
+    font-size: 100px;
+    padding-top: 80px;
+  }
+  .galleryInfo .galleryImage5 .num {
+    font-size: 100px;
+  }
+  .galleryInfo .galleryImage5 p {
+    font-size: 70px;
+    padding-top: 310px;
+  }
+  .galleryInfo .galleryTexts {
+    display: flex;
+    font-family: SerifItalic;
+    font-weight: lighter;
+    font-size: 16px;
+    padding-top: 50px;
+    padding-bottom: 90px;
+    justify-content: space-between;
+  }
+  .galleryInfo .galleryTexts .leftText {
+    width: 490px;
+  }
+  .galleryInfo .galleryTexts .rightText {
+    width: 451px;
+  }
+}
 .bloginfo {
   padding-top: 56px;
   max-width: 981px;
@@ -761,4 +875,10 @@ footer .socials .instagram {
   font-size: 20px;
   font-family: GillSans;
   padding-bottom: 160px;
+}
+
+@media only screen and (max-width: 980px) {
+  .bloginfo {
+    padding: 10px;
+  }
 }
